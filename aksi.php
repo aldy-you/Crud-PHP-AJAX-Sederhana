@@ -17,7 +17,7 @@ switch ($_GET['proses']) {
 
     case 'edit':
 
-        $a = $_POST['IdMhsw'];
+        $a = $_POST['id'];
         $b = $_POST['nama'];
         $c = $_POST['jk'];
         $d = $_POST['alamat'];

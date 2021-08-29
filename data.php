@@ -33,7 +33,7 @@
                 </td>
                 <td>
                     <button id="ButtonEdit" class="btn btn-warning btn-sm" value="<?= $result['id']; ?>">Edit</button>
-                    <button id="ButtonHapus" class="btn btn-danger btn-sm" onclick="return conf('Apakah Anda yakin ingin hapus data?')" value="<?= $result['id']; ?>">Hapus</button>
+                    <button id="ButtonHapus" class="btn btn-danger btn-sm" value="<?= $result['id']; ?>">Hapus</button>
                 </td>
             </tr>
         <?php
